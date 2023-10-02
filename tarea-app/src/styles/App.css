@@ -1,0 +1,97 @@
+body {
+  font-family: Comic Sans MS ;
+  text-align: center;
+}
+
+h1 {
+  
+  font-size: 50px;
+  color: black;
+}
+
+#taskInput {
+  
+  font-family: Comic Sans MS ;
+  width: 60%;
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#addTaskButton {
+  font-size: 15px;
+  font-family: Comic Sans MS ;
+  border-radius: 19px ;
+  padding: 9px 13px;
+  background-color: #3680ae;
+  color: #fff;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.task-list {
+  border-radius: black 10px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.task {
+  max-width: 670px;
+  min-width: 300px;
+  margin: auto;
+ margin-top: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border: 1px solid black ;
+  border-radius: 19px ;
+  cursor: grab;
+  transition: background-color 0.3s;
+}
+
+.task:hover {
+  
+  background-color: #abc6ec;
+  
+}
+
+.delete-button {
+  
+  background-color: #3680ae;
+  color: #fff;
+  border: black;
+  border: 1px solid black ;
+  border-radius: 19px ;
+  cursor: pointer;
+  padding: 5px 15px;
+  margin-left: 10px;
+}
+.caja {
+  margin-top:25px;
+  background-color:#6fa8dc ;
+  border: 2px solid black ;
+  border-radius: 19px ;
+  height:auto;
+  min-height: 350px;
+  width: 800px;
+  margin: auto;
+  align-items: center;
+   
+}
+#sortButton{
+  border: 1.4px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  align-items: center;
+  width: 40px;
+  cursor: pointer;
+  height: 30px; 
+}
+
